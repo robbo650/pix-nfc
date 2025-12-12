@@ -52,13 +52,13 @@
 <body>
   <h2>Pagamento via Pix</h2>
   <textarea id="pixcode" readonly>
-00020126580014BR.GOV.BCB.PIX0136119643152575204000053039865802BR5909TESTE PIX6009SAOPAULO62070503PIX6304F7A2
+00020126580014BR.GOV.BCB.PIX0136119643152575204000053039865802BR5909TESTEPIX6009SAOPAULO62070503PIX6304F7A2
   </textarea>
   <br>
   <button onclick="copyPix()">Copiar Código Pix</button>
   <p>Copie o código acima e cole no seu app bancário.<br>O valor está em aberto: você define quanto pagar.</p>
   <p><strong>Ou escaneie o QR Code:</strong></p>
-  <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=00020126580014BR.GOV.BCB.PIX0136119643152575204000053039865802BR5909TESTE%20PIX6009SAOPAULO62070503PIX6304F7A2" alt="QR Code Pix">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=00020126580014BR.GOV.BCB.PIX0136119643152575204000053039865802BR5909TESTEPIX6009SAOPAULO62070503PIX6304F7A2" alt="QR Code Pix">
   <script>
     function copyPix() {
       var copyText = document.getElementById("pixcode");
